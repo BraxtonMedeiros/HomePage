@@ -1,7 +1,7 @@
 import { initializeApp, getApps } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCgJO83K74ep2TG8ZQOnfO9pbv7pmv9gJY",
+    apiKey: process.env.NEXT_PUBLIC_API_KEY,
     authDomain: "currency-converter-dbf18.firebaseapp.com",
     databaseURL: "https://currency-converter-dbf18-default-rtdb.firebaseio.com",
     projectId: "currency-converter-dbf18",
