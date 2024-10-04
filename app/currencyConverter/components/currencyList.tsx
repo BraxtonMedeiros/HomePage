@@ -12,7 +12,6 @@ export const CurrencyList = () => {
   useEffect(() => {
     const unsubscribe = onValue(currencyRef, (snapshot) => {
       const newData = snapshot.val();
-      console.log(newData);
       if (JSON.stringify(currencies) !== JSON.stringify(newData)) {
         const test = Object.keys(newData).map((key: any) => newData[key]);
         setCurrencies(test);
