@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
+import Link from "next/link"; // 👈 Add this line
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,10 @@ export default function RootLayout({
         {/* Header */}
         <header className="bg-white shadow-md">
           <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-xl font-bold">Braxton Medeiros</h1>
-            {/* You can add nav links here later if needed */}
+            {/* 👇 Wrap h1 in a Link */}
+            <Link href="/" className="text-xl font-bold hover:underline">
+              Home
+            </Link>
           </div>
         </header>
 
