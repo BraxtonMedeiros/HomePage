@@ -15,7 +15,7 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold">Braxton Medeiros</h1>
         <p className="mt-2 text-lg text-gray-600 max-w-xl">
-          I'm a first-generation college graduate with a Bachelor's in Software Engineering from BYU–Idaho. I love building web apps that are fast, accessible, and meaningful.
+          I&apos;m a first-generation college graduate with a Bachelor&apos;s in Software Engineering from BYU–Idaho. I love building web apps that are fast, accessible, and meaningful.
         </p>
       </div>
 
